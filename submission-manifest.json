@@ -3,6 +3,7 @@
   "repository": "https://github.com/nearar22/dependency-weaver",
   "reviewedContractCommit": "ec6d61b26efc16a4be6fca7e6ce18ef468715e38",
   "contractSourceSha256": "32b0af0abfa60e6a58fe01d0e7a5e5b799b37aabfbe9ee3686fa503088216f71",
+  "explorerSourceMatch": true,
   "network": "GenLayer StudioNet",
   "chainId": 61999,
   "contractAddress": "0x0261D420224Ff2631F5b24AC1FC1fba9Ed4aaABb",
