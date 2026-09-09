@@ -8,5 +8,5 @@
 | Authorization | only frozen executor may complete each task | executor test | PASS |
 | Dependency enforcement | predecessors must complete before target | ordered lifecycle test | PASS |
 | Replay protection | graph inference once, completion once | replay tests | PASS |
-| Exact deployed source | reviewed commit, digest and Explorer source | deployment pending | UNVERIFIED |
-| Real network execution | compile and execute a live two-account plan | deployment pending | UNVERIFIED |
+| Exact deployed source | reviewed commit, digest and Explorer source | commit `ec6d61b`, deployment `0x23eea2...3855a` | PASS |
+| Real network execution | compile and execute a live two-account plan | `scripts/live_verification.json` | PASS |

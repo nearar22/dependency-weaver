@@ -1,0 +1,17 @@
+{
+  "account": "nearar22",
+  "repository": "https://github.com/nearar22/dependency-weaver",
+  "reviewedContractCommit": "ec6d61b26efc16a4be6fca7e6ce18ef468715e38",
+  "contractSourceSha256": "32b0af0abfa60e6a58fe01d0e7a5e5b799b37aabfbe9ee3686fa503088216f71",
+  "network": "GenLayer StudioNet",
+  "chainId": 61999,
+  "contractAddress": "0x0261D420224Ff2631F5b24AC1FC1fba9Ed4aaABb",
+  "deploymentTransaction": "0x23eea2669dc9754386089d10130c2d2f5e2b805ce34744bb333274a37243855a",
+  "lifecycleTransactions": {
+    "createPlan": "0x69e49879bfa4e5a133607cd336f1a92164b776d554c7d06da2a2898e595d88f8",
+    "weaveDependencies": "0xff135cd504f64ee4b030285167b5bbd63499eab9e7c9653e1b125442b63e5b5e",
+    "completePrepare": "0xa12dd697669abfcdc13d55d1a736533a5a81216c3283ad8c384f3ae919f6b60d",
+    "completePublish": "0xcb2b865c852462b76fa6becdfe9f5bf9eedb44c76bfc2132297601e3afc1a218"
+  },
+  "liveResult": {"plan":"plan-1","phase":"COMPLETE","completed":2,"edge":"prepare>publish"}
+}

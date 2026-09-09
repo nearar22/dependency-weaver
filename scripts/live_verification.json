@@ -1,0 +1,28 @@
+{
+  "status": "ACCEPTED",
+  "transactions": {
+    "create_plan": "0x69e49879bfa4e5a133607cd336f1a92164b776d554c7d06da2a2898e595d88f8",
+    "weave_dependencies": "0xff135cd504f64ee4b030285167b5bbd63499eab9e7c9653e1b125442b63e5b5e",
+    "complete_prepare": "0xa12dd697669abfcdc13d55d1a736533a5a81216c3283ad8c384f3ae919f6b60d",
+    "complete_publish": "0xcb2b865c852462b76fa6becdfe9f5bf9eedb44c76bfc2132297601e3afc1a218"
+  },
+  "plan": {
+    "id": "plan-1",
+    "phase": "COMPLETE",
+    "completed": 2,
+    "graph_hash": "bb5ee56d0e5ec2934a8eb80ee29dc41cc67635812f39765a1275939ed53e38f0"
+  },
+  "edges": [
+    {
+      "from": "prepare",
+      "reason": "Publish requires the tested versioned release artifact produced by prepare; publish consumes that artifact to create the registry publication receipt.",
+      "to": "publish"
+    }
+  ],
+  "validator_audit": {
+    "coverage": "checked",
+    "every_edge": "checked",
+    "every_task": "checked",
+    "objective": "checked"
+  }
+}

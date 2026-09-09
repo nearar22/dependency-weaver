@@ -45,4 +45,13 @@ gltest tests -v
 genvm-lint contracts/contract.py
 ```
 
-StudioNet deployment and live lifecycle evidence are added after the reviewed source is committed and deployed.
+## Verified StudioNet deployment
+
+- Contract: `0x0261D420224Ff2631F5b24AC1FC1fba9Ed4aaABb`
+- Deployment transaction: `0x23eea2669dc9754386089d10130c2d2f5e2b805ce34744bb333274a37243855a`
+- Live dependency inference: `0xff135cd504f64ee4b030285167b5bbd63499eab9e7c9653e1b125442b63e5b5e`
+- Final task completion: `0xcb2b865c852462b76fa6becdfe9f5bf9eedb44c76bfc2132297601e3afc1a218`
+- Reviewed source commit: `ec6d61b26efc16a4be6fca7e6ce18ef468715e38`
+- Contract SHA-256: `32b0af0abfa60e6a58fe01d0e7a5e5b799b37aabfbe9ee3686fa503088216f71`
+
+The live plan used two assigned StudioNet executors. Validators inferred `prepare -> publish`; both task completions reached `ACCEPTED`, and `plan-1` reached `COMPLETE` with two completed tasks.
